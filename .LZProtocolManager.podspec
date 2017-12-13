@@ -24,6 +24,30 @@ s.summary      = "A short description of LZProtocolManager."
 
 
 s.description  = <<-DESC
+Pod::Spec.new do |s|
+
+s.name         = "LZProtocolManager"
+s.version      = "1.0.0"
+s.summary      = "A short description of LZProtocolManager."
+
+
+s.description  = <<-DESC
+This is CRProtocolManager
+DESC
+
+s.homepage     = "https://github.com/xxl379786230/LZProtocolManager"
+s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
+s.author             = { "XXL" => "myWarlord@sina.com" }
+
+s.platform     = :ios, "8.4"
+
+s.source       = { :git => "https://github.com/xxl379786230/LZProtocolManager.git", :tag => s.version }
+
+s.source_files  = "LZProtocolManager/LZProtocolManager/**/*.{h,m}"
+
+end
+
 This is CRProtocolManager
 DESC
 
@@ -67,7 +91,29 @@ s.author             = { "XXL" => "myWarlord@sina.com" }
 #  If this Pod runs only on iOS or OS X, then specify the platform and
 #  the deployment target. You can optionally include the target after the platform.
 #
+Pod::Spec.new do |s|
+  s.name         = "iOS_Category"
+  s.version      = "0.0.1"
+  s.summary      = "all kinds of categories for iOS develop"
+  s.description  = <<-DESC
+                      this project provide all kinds of categories for iOS developer 
+                   DESC
+  s.homepage     = "https://github.com/yongqianvip/iOS_Category"
+  s.license      = "MIT"
+  s.license      = { :type => "MIT"， :file => "LICENSE" }
+  s.author             = { "yongqianvip" => "yongqianvip@***.com" }
+  s.platform     = :ios
+  s.source       = { :git => "https://github.com/yongqianvip/iOS_Category.git"， :tag => "0.0.1" }
+  s.source_files  = "Classes"， "iOS_Category/Classes/**/*.{h，m}"
+  s.exclude_files = "Classes/Exclude"
+  s.public_header_files = "iOS_Category/Classes/UIKit/UI_Categories.h"，"iOS_Category/Classes/Foundation/Foundation_Category.h"，"iOS_Category/Classes/**/*.h"
+  s.requires_arc = true
+end
 
+作者：尹_路人
+链接：http://www.jianshu.com/p/d7d1942dd3f1
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 # s.platform     = :ios
 s.platform     = :ios, "8.4"
@@ -149,17 +195,5 @@ s.source_files  = "LZProtocolManager/LZProtocolManager/**/*.{h,m}"
 # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 #
 #  If your library depends on compiler flags you can set them in the xcconfig hash
-#  where they will only apply to your library. If you depend on other Podspecs
-#  you can include multiple dependencies to ensure it works.
-
-
-# s.requires_arc = true
-
-
-# s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-# s.dependency "JSONKit", "~> 1.4"
-
-
-# s.social_media_url   = "http://twitter.com/15370989688"
+#  where they will only apply to your library. If you depend on other 
 end
-

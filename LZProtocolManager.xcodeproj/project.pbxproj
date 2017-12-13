@@ -15,7 +15,7 @@
 		AE2E6F9D1FE0CE1E0079EC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2E6F9B1FE0CE1E0079EC2D /* LaunchScreen.storyboard */; };
 		AE2E6FA81FE0CE1E0079EC2D /* LZProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E6FA71FE0CE1E0079EC2D /* LZProtocolManagerTests.m */; };
 		AE2E6FB31FE0CE1E0079EC2D /* LZProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E6FB21FE0CE1E0079EC2D /* LZProtocolManagerUITests.m */; };
-		AE2E6FC31FE0CE5A0079EC2D /* LZProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E6FC21FE0CE5A0079EC2D /* LZProtocolManager.m */; };
+		AE2E6FC71FE0DC0D0079EC2D /* LZProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E6FC61FE0DC0D0079EC2D /* LZProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		AE2E6FAE1FE0CE1E0079EC2D /* LZProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2E6FB21FE0CE1E0079EC2D /* LZProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZProtocolManagerUITests.m; sourceTree = "<group>"; };
 		AE2E6FB41FE0CE1E0079EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE2E6FC11FE0CE5A0079EC2D /* LZProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProtocolManager.h; sourceTree = "<group>"; };
-		AE2E6FC21FE0CE5A0079EC2D /* LZProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProtocolManager.m; sourceTree = "<group>"; };
+		AE2E6FC51FE0DC0D0079EC2D /* LZProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProtocolManager.h; sourceTree = "<group>"; };
+		AE2E6FC61FE0DC0D0079EC2D /* LZProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		AE2E6F8C1FE0CE1E0079EC2D /* LZProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				AE2E6FC01FE0CE290079EC2D /* LZProtocolManager */,
+				AE2E6FC41FE0DBF20079EC2D /* LZProtocolManager */,
 				AE2E6F901FE0CE1E0079EC2D /* AppDelegate.h */,
 				AE2E6F911FE0CE1E0079EC2D /* AppDelegate.m */,
 				AE2E6F931FE0CE1E0079EC2D /* ViewController.h */,
@@ -144,13 +144,13 @@
 			path = LZProtocolManagerUITests;
 			sourceTree = "<group>";
 		};
-		AE2E6FC01FE0CE290079EC2D /* LZProtocolManager */ = {
+		AE2E6FC41FE0DBF20079EC2D /* LZProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				AE2E6FC11FE0CE5A0079EC2D /* LZProtocolManager.h */,
-				AE2E6FC21FE0CE5A0079EC2D /* LZProtocolManager.m */,
+				AE2E6FC51FE0DC0D0079EC2D /* LZProtocolManager.h */,
+				AE2E6FC61FE0DC0D0079EC2D /* LZProtocolManager.m */,
 			);
-			name = LZProtocolManager;
+			path = LZProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2E6F951FE0CE1E0079EC2D /* ViewController.m in Sources */,
-				AE2E6FC31FE0CE5A0079EC2D /* LZProtocolManager.m in Sources */,
+				AE2E6FC71FE0DC0D0079EC2D /* LZProtocolManager.m in Sources */,
 				AE2E6F921FE0CE1E0079EC2D /* AppDelegate.m in Sources */,
 				AE2E6F8F1FE0CE1E0079EC2D /* main.m in Sources */,
 			);
