@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					AE2E6F891FE0CE1E0079EC2D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SX453B26SR;
 						ProvisioningStyle = Automatic;
 					};
 					AE2E6FA21FE0CE1E0079EC2D = {
@@ -438,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SX453B26SR;
 				INFOPLIST_FILE = LZProtocolManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuxiaolong.LZProtocolManager;
@@ -449,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SX453B26SR;
 				INFOPLIST_FILE = LZProtocolManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuxiaolong.LZProtocolManager;
